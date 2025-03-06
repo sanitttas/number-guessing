@@ -1,9 +1,9 @@
 import random
 print("Hi! I am trying to figure out what I want to do!")
 user_name = input("What is your name?")
-if user_name == "Sanita":
+if user_name.lower() == "sanita":
     print("Hello, boss!")
-elif user_name == "Staņislavs":
+elif user_name.lower() == "staņislavs":
     print("Hello, ", user_name, ", I love you!")
 else: print("Hello, ", user_name, "!")
 
@@ -47,10 +47,3 @@ elif number_question1.lower() == "no":
             found = True
         else:
             print("I am not good at this.")
-            
-
-
-
-        
-       
-
